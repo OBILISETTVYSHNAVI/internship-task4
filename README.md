@@ -88,7 +88,7 @@ Measures the ability to find all relevant cases (true positives). High recall is
 
  🔷 4. F1 Score
 \[
-F1 = 2*\{\{Precision}* \{Recall}}{\{Precision} + {Recall}}
+F1 = 2*\{\{Precision}* \{Recall}}/{{Precision} + {Recall}}
 \]
 
 Balances precision and recall.
