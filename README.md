@@ -74,21 +74,21 @@ A table that describes the performance of the classification model by comparing 
 
  🔷 2. Precision
 \[
-\text{Precision} = \{TP}/{TP + FP}
+\{Precision} = {TP}/{TP + FP}
 \]
 
 Measures the accuracy of positive predictions. High precision means fewer false positives.
 
  🔷 3. Recall (Sensitivity)
 \[
-\text{Recall} = \frac{TP}{TP + FN}
+\{Recall} = \{TP}/{TP + FN}
 \]
 
 Measures the ability to find all relevant cases (true positives). High recall is important in medical diagnostics.
 
  🔷 4. F1 Score
 \[
-F1 = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}
+F1 = 2*\{\{Precision}* \{Recall}}{\{Precision} + {Recall}}
 \]
 
 Balances precision and recall.
