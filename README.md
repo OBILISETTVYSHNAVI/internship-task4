@@ -25,15 +25,6 @@ This probability is compared against a threshold (typically 0.5) to classify the
 
 
 
- 📂 Dataset Information
-
-- **Dataset Name:** Breast Cancer Wisconsin (Diagnostic)
-- **Source:** [Kaggle Dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
-- **Features:** 30 numeric features computed from digitized images of fine needle aspirates of breast mass
-- **Target Classes:** 
-  - `M` = Malignant (encoded as 1)
-  - `B` = Benign (encoded as 0)
-
 
 
  ✅ Task Guidelines (Internship Mini-Guide)
@@ -83,7 +74,7 @@ A table that describes the performance of the classification model by comparing 
 
  🔷 2. Precision
 \[
-\text{Precision} = \frac{TP}{TP + FP}
+\text{Precision} = \{TP}/{TP + FP}
 \]
 
 Measures the accuracy of positive predictions. High precision means fewer false positives.
